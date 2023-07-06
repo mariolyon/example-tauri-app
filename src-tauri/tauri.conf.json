@@ -7,7 +7,7 @@
     "withGlobalTauri": false
   },
   "package": {
-    "productName": "example-tauri-app",
+    "productName": "example-crud-tauri-app",
     "version": "0.0.0"
   },
   "tauri": {
@@ -21,7 +21,7 @@
     "bundle": {
       "active": true,
       "targets": "all",
-      "identifier": "com.tauri.dev",
+      "identifier": "example-crud-tauri-app",
       "icon": [
         "icons/32x32.png",
         "icons/128x128.png",
@@ -37,7 +37,7 @@
       {
         "fullscreen": false,
         "resizable": true,
-        "title": "example-tauri-app",
+        "title": "example-crud-tauri-app",
         "width": 800,
         "height": 600
       }
